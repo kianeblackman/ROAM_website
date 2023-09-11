@@ -1,1 +1,1 @@
-/*# sourceMappingURL=app.css.map */
+*{margin:0;padding:0;box-sizing:border-box}body{background-color:#1f895e}.app-wrapper{width:100%}.section{width:100%;height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:1rem}.title{font-size:3rem;color:#000;font-family:Helvetica,sans-serif}.romeo{width:25%}.roam-logo{width:35%}@media only screen and (max-width: 600px){.romeo{width:50%}.roam-logo{width:65%}}/*# sourceMappingURL=app.css.map */
