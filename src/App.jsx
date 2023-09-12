@@ -1,15 +1,24 @@
-import './app.css'
+//* Description: renders the App component of the app
 
-import roamLogo from './assets/images/ROAM-LOGO-SMALL.png';
-import romeoFullColour from './assets/images/ROMEO-FULL-COLOR.png';
+// Import Statments
+
+import './scss/app.css'
+import { Routes, Route } from 'react-router-dom';
+
+// Import Pages
+import Home from './pages/Home.jsx';
+import Resources from './pages/Resources.jsx';
+import About from './pages/About.jsx';
 
 function App() {
   return (
-    <div className='app-wrapper'>
-      <div className='section'>
-        <img className='romeo' src={romeoFullColour} alt='logo' />
-        <img className='roam-logo' src={roamLogo} alt='logo' />
-      </div>
+    <div id='app-wrapper'>
+      Hello
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/resources' element={<Resources />} />
+      </Routes>
     </div>
   )
 }

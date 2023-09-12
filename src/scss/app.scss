@@ -1,0 +1,17 @@
+// Abstract files
+@use './abstracts/_abstracts-dir';
+
+// Core files
+@import './core/__core-dir';
+
+// Components
+@import './components/__components-dir';
+
+// Layout
+@import './layout/__layout-dir';
+
+// Sections
+@import 'sections/__sections-dir';
+
+// Pages
+@import 'pages/__pages-dir';
