@@ -13,7 +13,6 @@ import About from './pages/About.jsx';
 function App() {
   return (
     <div id='app-wrapper'>
-      Hello
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />

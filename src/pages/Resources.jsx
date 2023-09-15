@@ -10,6 +10,8 @@ function Resources() {
     return (
         <div id='resources-wrapper'>
             <div>
+                <h2>LGBTQIA+</h2>
+                <hr />
                 <ul>
                     {lgbtqResources.map((e, index) => (
                         <ResourcesCard key={index} title={e.title} description={e.description} location={e.location} link={e.link} />
@@ -17,6 +19,8 @@ function Resources() {
                 </ul>
             </div>
             <div>
+                <h2>Accessibility</h2>
+                <hr />
                 <ul>
                     {accessibilityResources.map((e, index) => (
                         <ResourcesCard key={index} title={e.title} description={e.description} location={e.location} link={e.link} />
@@ -24,6 +28,8 @@ function Resources() {
                 </ul>
             </div>
             <div>
+                <h2>Communities Experiencing Racial Inequality</h2>
+                <hr />
                 <ul>
                     {racialInequalityResources.map((e, index) => (
                         <ResourcesCard key={index} title={e.title} description={e.description} location={e.location} link={e.link} />

@@ -1,3 +1,6 @@
+//* Description:
+
+// Import Statments
 import ResourcesData from "./ResourcesData.json"
 
 class Resources {
