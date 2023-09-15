@@ -10,7 +10,7 @@ function Resources() {
     return (
         <div id='resources-wrapper'>
             <div>
-                <h2>LGBTQIA+</h2>
+                <h1>LGBTQIA+</h1>
                 <hr />
                 <ul>
                     {lgbtqResources.map((e, index) => (
