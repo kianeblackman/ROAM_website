@@ -1,16 +1,17 @@
 @use '../abstracts/colors';
 
 #footer-wrapper {
-  bottom: 0;
   width: 100%;
   padding: 2rem;
   background-color: colors.$primary-pink;
+  bottom: 0;
   #footer-content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     h3 {
       flex: 1;
+      font-style: italic;
     }
     ul {
       display: flex;

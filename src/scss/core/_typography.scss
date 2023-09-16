@@ -5,10 +5,6 @@ html {
   font-family: '$sans-serif', sans-serif;
 }
 
-h1 {
-  font-family: '$custome-font', sans-serif; /* Include a fallback font family */
-}
-
 h2,
 h3,
 h4,
@@ -22,7 +18,13 @@ li {
   font-size: 1.6rem;
 }
 
-h2 {
+h1 {
+  font-family: fonts.$custome-font, sans-serif;
+  font-size: 4.8rem;
+}
+
+h2,
+p.large {
   font-size: 3.6rem;
 }
 

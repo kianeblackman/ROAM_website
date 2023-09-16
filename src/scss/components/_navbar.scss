@@ -4,12 +4,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: sticky;
+  position: fixed;
   top: 0;
   width: 100%;
   height: 8rem;
   padding: 2rem;
   background-color: colors.$primary-white;
+  transition: top 0.3s;
   nav {
     display: flex;
     align-items: center;
