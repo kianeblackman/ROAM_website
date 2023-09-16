@@ -2,6 +2,9 @@
 
 // Import Statments
 
+// Import Components
+import Button from "../components/Button.jsx"
+
 // Import Images
 import romeo from "../assets/img/ROMEO-FULL-COLOR.png"
 import roamCover from "../assets/img/roam-front-cover.jpg"
@@ -13,7 +16,7 @@ function Home() {
         <div id="hero-section">
           <img id="romeo" src={romeo} alt="Romeo" />
           <h2>FOR <span>THOSE</span> WHO EXPLORE<br />WHAT CAME BEFORE</h2>
-          <p>ROAM is a collaborative anthology, exploring the modern ways that people are engaging with the past. We hope to unite creatives from different mediums and backgrounds, inspiring cross-discipline collaboration and an injection of new energy to the modern folk movement.</p>
+          <p className="medium">ROAM is a collaborative anthology, exploring the modern ways that people are engaging with the past. We hope to unite creatives from different mediums and backgrounds, inspiring cross-discipline collaboration and an injection of new energy to the modern folk movement.</p>
         </div>
         <div id="order-section">
           <img id="roam-cover" src={roamCover} alt="ROAM Front Cover" />
@@ -24,9 +27,7 @@ function Home() {
               <hr />
               <p>ROAM is a collaborative anthology, exploring the modern ways that people are engaging with the past. We hope to unite creatives from different mediums and backgrounds, inspiring cross-discipline collaboration and an injection of new energy to the modern folk movement.</p>
             </div>
-            <a>
-              <button>Order Now</button>
-            </a>
+            <Button content="Order Now" />
           </div>
         </div>
       </div>
