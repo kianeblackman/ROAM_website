@@ -1,18 +1,23 @@
 @use '../abstracts/colors';
 
-#button {
-  width: 20rem;
-  padding: 10px;
-  font-size: 2.4rem;
-  background: transparent;
-  border: 0.2rem solid colors.$base-black;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-  transform: translate(0.3rem, -0.3rem);
-  box-shadow: -0.3rem 0.3rem #0f172a;
-  &:hover {
-    box-shadow: none;
-    transition: all 0.2s ease;
-    transform: none;
+#button-container {
+  display: flex;
+  align-items: center;
+  #button {
+    padding: 0.8rem 4rem;
+    font-size: 2.4rem;
+    background: transparent;
+    cursor: pointer;
+
+    border: 0.2rem solid colors.$base-black;
+    box-shadow: -0.3rem 0.3rem #0f172a;
+    transition: all 0.3s ease-in-out;
+    transform: translate(0.3rem, -0.3rem);
+
+    &:hover {
+      box-shadow: none;
+      transition: all 0.2s ease;
+      transform: none;
+    }
   }
 }
