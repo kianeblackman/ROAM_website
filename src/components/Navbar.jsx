@@ -6,10 +6,9 @@ import { Link } from 'react-router-dom';
 import roamLogo from '../assets/img/roam-logo-small.png';
 
 export default function NavBar() {
-
-    var prevScrollpos = window.pageYOffset;
+    var prevScrollpos = window.scrollY;
     window.onscroll = function () {
-        var currentScrollPos = window.pageYOffset;
+        var currentScrollPos = window.scrollY;
         if (prevScrollpos > currentScrollPos) {
             document.getElementById("navbar-wrapper").style.top = "0";
         } else {
