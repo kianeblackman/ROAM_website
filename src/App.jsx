@@ -12,6 +12,7 @@ import About from './pages/About.jsx';
 
 // Import Components
 import NavBar from './components/NavBar.jsx';
+import Footer from './components/Footer.jsx';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/resources' element={<Resources />} />
       </Routes>
+      <Footer />
     </div>
   )
 }
