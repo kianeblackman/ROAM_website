@@ -1,0 +1,46 @@
+@use '../abstracts/colors';
+
+#resources-card {
+  margin-bottom: 2rem;
+  a {
+    :hover {
+      color: colors.$primary-gray;
+    }
+  }
+  .resources-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 6rem;
+    .title {
+      flex: 1;
+    }
+    .description {
+      flex: 2;
+    }
+    .location {
+      text-align: right;
+    }
+  }
+}
+
+#resources-card:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  #resources-card {
+    .resources-content {
+      flex-direction: column;
+      gap: 0;
+      .title,
+      .description,
+      .location {
+        flex: 1;
+      }
+      .location {
+        text-align: left;
+      }
+    }
+  }
+}
