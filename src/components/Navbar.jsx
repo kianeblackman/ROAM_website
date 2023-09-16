@@ -7,15 +7,20 @@ import roamLogo from '../assets/img/roam-logo-small.png';
 
 export default function NavBar() {
     var prevScrollpos = window.scrollY;
+    var scrollThreshold = 8 * parseFloat(getComputedStyle(document.documentElement).fontSize); // Set scrollThreshold to 12rem
+
     window.onscroll = function () {
         var currentScrollPos = window.scrollY;
+        if (currentScrollPos > scrollThreshold) {
+            document.getElementById("navbar-wrapper").style.top = "-8rem"; // Hide the navbar when scrolled past 12rem
+        }
         if (prevScrollpos > currentScrollPos) {
-            document.getElementById("navbar-wrapper").style.top = "0";
-        } else {
-            document.getElementById("navbar-wrapper").style.top = "-8rem";
+            document.getElementById("navbar-wrapper").style.top = "0"; // Show the navbar when scrolling up
         }
         prevScrollpos = currentScrollPos;
     }
+
+
     return (
         <div id='navbar-wrapper'>
             <nav>
