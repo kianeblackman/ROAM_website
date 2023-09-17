@@ -9,6 +9,9 @@ import Button from "../components/Button.jsx"
 import romeo from "../assets/img/ROMEO-FULL-COLOR.png"
 import roamCover from "../assets/img/roam-front-cover.jpg"
 import sketch from "../assets/img/sketch-01.png"
+import rocks from '../assets/img/illustration-sm-rocks.png'
+import sword from '../assets/img/illustration-sm-sword.png'
+import digger from '../assets/img/illustration-sm-digger.png'
 
 function Home() {
   return (
@@ -17,7 +20,7 @@ function Home() {
         <div id="hero-section">
           <img id="romeo" src={romeo} alt="Romeo" />
           <h2>FOR <span>THOSE</span> WHO EXPLORE<br />WHAT CAME BEFORE</h2>
-          <p className="medium">ROAM is a collaborative anthology, exploring the modern ways that people are engaging with the past. We hope to unite creatives from different mediums and backgrounds, inspiring cross-discipline collaboration and an injection of new energy to the modern folk movement.</p>
+          <p className="medium">ROAM is a collaborative anthology, <span><img src={rocks} /></span> exploring the modern ways that people are engaging <span><img src={sword} /></span> with the past.  We hope to unite creatives from different mediums and backgrounds, inspiring cross-discipline collaboration and <span><img src={digger} /></span> an injection of new energy to the modern folk movement.</p>
         </div>
         <div id="order-section">
           <img id="roam-cover" src={roamCover} alt="ROAM Front Cover" />
