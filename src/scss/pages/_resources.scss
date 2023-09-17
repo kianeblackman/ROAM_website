@@ -1,18 +1,19 @@
 @use '../abstracts/colors';
+@use '../core/screens';
 
 #resources-wrapper {
   margin-top: 8rem;
   #resources-content {
     display: flex;
     flex-direction: column;
-    .resources-intro {
+    #resources-intro {
       background-color: colors.$primary-green;
       padding: 6rem;
       p {
         width: 80%;
       }
     }
-    .resources-body {
+    #resources-body {
       background-color: colors.$primary-white;
       padding: 6rem;
       .resource-section {
@@ -29,6 +30,27 @@
       }
       .resource-section:last-child {
         margin-bottom: 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: screens.$screen-sm-min) {
+  #resources-wrapper {
+    #resources-content {
+      #resources-body {
+        padding: 3rem;
+        .resource-section {
+          margin-bottom: 3rem;
+          h2 {
+            font-size: 2.8rem;
+            margin-bottom: 0;
+          }
+          hr {
+            width: 100%;
+            margin: 1rem 0 1.8rem 0;
+          }
+        }
       }
     }
   }

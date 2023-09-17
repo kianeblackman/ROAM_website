@@ -1,9 +1,8 @@
 //* Description: renders the App component of the app
 
 // Import Statments
-
-import './scss/app.css'
 import { Routes, Route } from 'react-router-dom';
+import './scss/app.css'
 
 // Import Pages
 import Home from './pages/Home.jsx';
