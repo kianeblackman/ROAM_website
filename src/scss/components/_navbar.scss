@@ -1,4 +1,5 @@
 @use '../abstracts/colors';
+@use '../core/screens';
 
 #navbar-wrapper {
   display: flex;
@@ -37,7 +38,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: screens.$screen-sm-min) {
   #navbar-wrapper {
     height: 6rem;
     padding: 1rem;
@@ -48,8 +49,7 @@
         }
       }
       ul {
-        gap: 3rem;
-        padding-right: 2rem;
+        gap: 2rem;
         li {
           font-size: 1.8rem;
         }
