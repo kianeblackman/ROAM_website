@@ -1,7 +1,5 @@
 //* Description: renders the Home page of the app
 
-// Import Statments
-
 // Import Components
 import Button from "../components/Button.jsx"
 
@@ -22,7 +20,6 @@ function Home() {
           <h2>FOR <span>THOSE</span> WHO EXPLORE<br />WHAT CAME BEFORE</h2>
           <p className="medium">ROAM is a collaborative anthology, <span><img src={rocks} /></span> exploring the modern ways that people are engaging <span><img src={sword} /></span> with the past.  We hope to unite creatives from different mediums and backgrounds, inspiring cross-discipline collaboration and <span><img src={digger} /></span> an injection of new energy to the modern folk movement.</p>
         </div>
-
         <div id="order-section">
           <img id="roam-cover" src={roamCover} alt="ROAM Front Cover" />
           <div id="order-details">
@@ -36,7 +33,6 @@ function Home() {
           </div>
         </div>
         <div id="resources-section">
-
           <div id="resources-details">
             <div id="resources-text">
               <h2>Resources</h2>
@@ -45,13 +41,8 @@ function Home() {
             </div>
             <Button content="View Here" href="#" />
           </div>
-
           <img id="roam-cover" src={grid} alt="ROAM Front Cover" />
-
         </div>
-
-
-
       </div>
     </div>
   )
