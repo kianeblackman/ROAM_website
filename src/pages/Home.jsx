@@ -8,6 +8,7 @@ import Button from "../components/Button.jsx"
 // Import Images
 import romeo from "../assets/img/ROMEO-FULL-COLOR.png"
 import roamCover from "../assets/img/roam-front-cover.jpg"
+import sketch from "../assets/img/sketch-01.png"
 
 function Home() {
   return (
@@ -23,13 +24,23 @@ function Home() {
           <div id="order-details">
             <div id="order-text">
               <h2>VOLUME 1</h2>
-              <h3>2023</h3>
+              <h2 className="light">2023</h2>
               <hr />
               <p>ROAM is a collaborative anthology, exploring the modern ways that people are engaging with the past. We hope to unite creatives from different mediums and backgrounds, inspiring cross-discipline collaboration and an injection of new energy to the modern folk movement.</p>
             </div>
-            <Button content="Order Now" />
+            <Button content="Order Now" href="mailto:roamanthology@gmail.com" />
           </div>
         </div>
+
+        <div id="resources-section">
+          <div id="resources-">
+            <h2>RESOURCES</h2>
+            <p>We are dedicated to the promotion ofdiversity and inclusion in both the heritage world and the folk artistic movement. While this is not a complete list, it is a starting point. We will be managing an inclusion portal on our website in the near future. Please consider helping us by getting in contact to share other groups - of any size - that can be added to this list. For our most up-to-date list, as well as links to each source, click the link below.</p>
+            <Button content="View Here" />
+          </div>
+          <img id="roam-cover" src={sketch} alt="ROAM Front Cover" />
+        </div>
+
       </div>
     </div>
   )
