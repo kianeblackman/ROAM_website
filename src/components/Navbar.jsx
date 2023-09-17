@@ -3,7 +3,7 @@
 import { Link } from 'react-router-dom';
 
 // Import Assets
-import roamLogo from '../assets/img/roam-logo-small.png';
+import roamLogo from '/img/roam-logo-small.png';
 
 export default function NavBar() {
     var prevScrollpos = window.scrollY;

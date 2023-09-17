@@ -6,13 +6,12 @@
 import Button from "../components/Button.jsx"
 
 // Import Images
-import romeo from "../assets/img/ROMEO-FULL-COLOR.png"
-import roamCover from "../assets/img/roam-front-cover.jpg"
-import rocks from '../assets/img/illustration-sm-rocks.png'
-import sword from '../assets/img/illustration-sm-sword.png'
-import digger from '../assets/img/illustration-sm-digger.png'
-
-import grid from '../assets/img/illustration-sq-grid.png'
+import romeo from "/img/ROMEO-FULL-COLOR.png"
+import roamCover from "/img/roam-front-cover.jpg"
+import rocks from '/img/illustration-sm-rocks.png'
+import sword from '/img/illustration-sm-sword.png'
+import digger from '/img/illustration-sm-digger.png'
+import grid from '/img/illustration-sq-grid.png'
 
 function Home() {
   return (
