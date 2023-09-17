@@ -11,13 +11,13 @@ import Resources from './pages/Resources.jsx';
 import About from './pages/About.jsx';
 
 // Import Components
-import NavBar from './components/NavBar.jsx';
+import Navbar from './components/Navbar.jsx';
 import Footer from './components/Footer.jsx';
 
 function App() {
   return (
     <div id='app-wrapper'>
-      <NavBar />
+      <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
