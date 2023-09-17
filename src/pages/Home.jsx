@@ -17,7 +17,7 @@ function Home() {
       <div id="home-content">
         <div id="hero-section">
           <img id="romeo" src={romeo} alt="Romeo" />
-          <h2>FOR <span>THOSE</span> WHO EXPLORE<br />WHAT CAME BEFORE</h2>
+          <h2>FOR <span>THOSE</span> WHO EXPLORE WHAT CAME BEFORE</h2>
           <p className="medium">ROAM is a collaborative anthology, <span><img src={rocks} /></span> exploring the modern ways that people are engaging <span><img src={sword} /></span> with the past.  We hope to unite creatives from different mediums and backgrounds, inspiring cross-discipline collaboration and <span><img src={digger} /></span> an injection of new energy to the modern folk movement.</p>
         </div>
         <div id="order-section">
