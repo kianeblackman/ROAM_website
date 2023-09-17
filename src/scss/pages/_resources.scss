@@ -1,0 +1,35 @@
+@use '../abstracts/colors';
+
+#resources-wrapper {
+  margin-top: 8rem;
+  #resources-content {
+    display: flex;
+    flex-direction: column;
+    .resources-intro {
+      background-color: colors.$primary-green;
+      padding: 6rem;
+      p {
+        width: 80%;
+      }
+    }
+    .resources-body {
+      background-color: colors.$primary-white;
+      padding: 6rem;
+      .resource-section {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 6rem;
+        h2 {
+          margin-bottom: 1rem;
+        }
+        hr {
+          width: 100%;
+          margin-bottom: 3rem;
+        }
+      }
+      .resource-section:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+@use '../abstracts/colors';
+
+#footer-wrapper {
+  width: 100%;
+  padding: 2rem;
+  background-color: colors.$primary-pink;
+  bottom: 0;
+  #footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    h3 {
+      flex: 1;
+      font-style: italic;
+    }
+    ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: right;
+      align-items: center;
+      gap: 6rem;
+      flex: 5;
+      li {
+        display: flex;
+        flex-direction: row;
+        gap: 3rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #footer-wrapper {
+    #footer-content {
+      flex-direction: column;
+      gap: 2rem;
+      h3 {
+        text-align: center;
+      }
+      ul {
+        flex-direction: column;
+        gap: 2rem;
+        li {
+          align-items: center;
+          flex-direction: column;
+          gap: 0.5rem;
+        }
+      }
+    }
+  }
+}
