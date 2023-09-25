@@ -9,6 +9,9 @@
     #resources-intro {
       background-color: colors.$primary-green;
       padding: 6rem;
+      h2 {
+        margin-bottom: 1rem;
+      }
       p {
         width: 80%;
       }
@@ -37,7 +40,14 @@
 
 @media screen and (max-width: screens.$screen-sm-min) {
   #resources-wrapper {
+    margin-top: 5rem;
     #resources-content {
+      #resources-intro {
+        padding: 3rem;
+        p {
+          width: 100%;
+        }
+      }
       #resources-body {
         padding: 3rem;
         .resource-section {

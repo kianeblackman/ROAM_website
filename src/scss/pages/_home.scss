@@ -40,6 +40,7 @@
       background-color: colors.$primary-white;
       padding: 6rem;
       gap: 3rem;
+      width: 100%;
       img {
         flex: 1;
         width: 25%;
@@ -96,16 +97,18 @@
   #home-wrapper {
     #home-content {
       #hero-section {
-        padding: 3rem 0 3rem 0;
+        padding: 3rem;
         img {
           height: 20rem;
         }
         h2 {
-          font-size: 2.8rem;
+          font-size: 3.6rem;
           margin: 1rem;
+          width: 100%;
         }
         p {
-          font-size: 1.6rem;
+          font-size: 2rem;
+          width: 100%;
           img {
             height: 1em;
             vertical-align: middle;

@@ -1,4 +1,5 @@
 @use '../abstracts/colors';
+@use '../core/screens';
 
 #footer-wrapper {
   width: 100%;
@@ -18,8 +19,10 @@
       flex-direction: row;
       justify-content: right;
       align-items: center;
-      gap: 6rem;
       flex: 5;
+
+      margin-right: 1rem;
+      gap: 6rem;
       li {
         display: flex;
         flex-direction: row;
@@ -29,7 +32,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: screens.$screen-sm-min) {
   #footer-wrapper {
     #footer-content {
       flex-direction: column;
