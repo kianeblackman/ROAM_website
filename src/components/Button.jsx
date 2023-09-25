@@ -1,9 +1,12 @@
+// Import Dependencies
+import { Link } from 'react-router-dom';
+
 export default function Button(e) {
     return (
-        <div id="button-container">
-            <button id="button" href={e.href} target="_blank" rel="noreferrer">
+        <Link to={e.path} href={e.href} id="button-container">
+            <button id="button" target="_blank" rel="noreferrer">
                 {e.content}
             </button>
-        </div>
+        </Link>
     );
 }

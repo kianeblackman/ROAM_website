@@ -1,0 +1,48 @@
+@use '../abstracts/colors';
+@use '../core/screens';
+
+#about-wrapper {
+  margin-top: 8rem;
+  #about-content {
+    display: flex;
+    flex-direction: column;
+    #about-intro {
+      display: flex;
+      flex-direction: column;
+      background-color: colors.$primary-green;
+      padding: 6rem;
+      h2 {
+        margin-bottom: 1rem;
+      }
+      p {
+        width: 80%;
+      }
+      #about {
+        display: flex;
+        flex-direction: row;
+        gap: 3rem;
+        width: 100%;
+        img {
+          flex: 1;
+          width: 25%;
+          height: 100%;
+          border: 0.2rem solid black;
+        }
+      }
+    }
+    #about-ending {
+      display: flex;
+      flex-direction: row;
+      gap: 3rem;
+      width: 100%;
+      background-color: colors.$primary-white;
+      padding: 6rem;
+      img {
+        flex: 1;
+        width: 35%;
+        height: 100%;
+        border: 0.2rem solid black;
+      }
+    }
+  }
+}
