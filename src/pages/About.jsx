@@ -11,7 +11,7 @@ function About() {
             <div id='about-content'>
                 <div id="about-intro">
                     <h2>The Team</h2>
-                    <div id="about">
+                    <div className="about-card">
                         <img id="profile" src={henry} alt="ROAM Front Cover" />
                         <div id="about-details">
                             <div id="order-text">
@@ -22,7 +22,7 @@ function About() {
                             </div>
                         </div>
                     </div>
-                    <div id="about">
+                    <div className="about-card">
                         <img id="profile" src={tom} alt="ROAM Front Cover" />
                         <div id="about-details">
                             <div id="order-text">
