@@ -11,13 +11,14 @@
       flex-direction: column;
       background-color: colors.$primary-green;
       padding: 6rem;
+      gap: 3rem;
       h2 {
         margin-bottom: 1rem;
       }
       p {
         width: 80%;
       }
-      #about {
+      .about-card {
         display: flex;
         flex-direction: row;
         gap: 3rem;
@@ -28,6 +29,9 @@
           height: 100%;
           border: 0.2rem solid black;
         }
+        p {
+          padding-top: 2rem;
+        }
       }
     }
     #about-ending {
@@ -37,11 +41,44 @@
       width: 100%;
       background-color: colors.$primary-white;
       padding: 6rem;
+      p a {
+        font-weight: bold;
+      }
       img {
         flex: 1;
-        width: 35%;
+        width: 30%;
         height: 100%;
         border: 0.2rem solid black;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: screens.$screen-sm-min) {
+  #about-wrapper {
+    #about-content {
+      #about-intro {
+        flex-direction: column;
+        padding: 3rem;
+        gap: 2rem;
+        .about-card {
+          flex-direction: column;
+          gap: 2rem;
+          p {
+            width: 100%;
+          }
+          img {
+            width: 100%;
+          }
+        }
+      }
+      #about-ending {
+        flex-direction: column-reverse;
+        padding: 3rem;
+        gap: 2rem;
+        img {
+          width: 100%;
+        }
       }
     }
   }

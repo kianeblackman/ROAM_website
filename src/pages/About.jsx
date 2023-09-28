@@ -11,7 +11,7 @@ function About() {
             <div id='about-content'>
                 <div id="about-intro">
                     <h2>The Team</h2>
-                    <div id="about">
+                    <div className="about-card">
                         <img id="profile" src={henry} alt="ROAM Front Cover" />
                         <div id="about-details">
                             <div id="order-text">
@@ -22,7 +22,7 @@ function About() {
                             </div>
                         </div>
                     </div>
-                    <div id="about">
+                    <div className="about-card">
                         <img id="profile" src={tom} alt="ROAM Front Cover" />
                         <div id="about-details">
                             <div id="order-text">
@@ -38,7 +38,7 @@ function About() {
                     </div>
                 </div>
                 <div id='about-ending'>
-                    <p>We are humbled at how much interest and support this project has received and just wanted to say thank you and we hope you have enjoyed reading this magazine.<br /><br />We are committed to inclusivity and diversity. Our mission is to celebrate the folk community inspire interest in heritage, and champion the work of all manner of incredible people of all backgrounds, experiences, and walks of life.<br /><br /><span><a>Got a question, shoot us a message!</a></span></p>
+                    <p className="medium">We are humbled at how much interest and support this project has received and just wanted to say thank you and we hope you have enjoyed reading this magazine.<br /><br />We are committed to inclusivity and diversity. Our mission is to celebrate the folk community inspire interest in heritage, and champion the work of all manner of incredible people of all backgrounds, experiences, and walks of life.<br /><br /><span><a href="mailto:roamanthology@gmail.com">Got a question, shoot us a message!</a></span></p>
                     <img id="profile" src={team} alt="ROAM Front Cover" />
                 </div>
             </div>
