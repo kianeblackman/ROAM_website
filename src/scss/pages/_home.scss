@@ -9,7 +9,7 @@
       justify-content: center;
       align-items: center;
       pointer-events: none;
-      background-color: colors.$primary-green;
+      background-color: colors.$primary-white;
       padding: 1.4rem 0 6rem 0;
       img {
         top: 0;
@@ -37,7 +37,7 @@
     #order-section {
       display: flex;
       flex-direction: row;
-      background-color: colors.$primary-white;
+      background-color: colors.$primary-green;
       padding: 6rem;
       gap: 3rem;
       width: 100%;
@@ -67,7 +67,7 @@
     #resources-section {
       display: flex;
       flex-direction: row;
-      background-color: colors.$primary-green;
+      background-color: colors.$primary-white;
       padding: 6rem;
       gap: 3rem;
       #resources-details {
