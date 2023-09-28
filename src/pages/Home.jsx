@@ -37,7 +37,7 @@ function Home() {
             <div id="resources-text">
               <h2>Resources</h2>
               <hr />
-              <p className="medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br /><br />Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              <p className="medium">We are dedicated to the promotion of diversity and inclusion in both the heritage world and the folk artistic movement. While this is not a complete list, it is a starting point.<br /><br />We will be managing an inclusion portal on our website in the near future. Please consider helping us by getting in contact to share other groups - of any size - that can be added to this list. For our most up-to-date list, as well as links to each source, click the link below.</p>
             </div>
             <Button path="/resources" content="View Here" />
           </div>
