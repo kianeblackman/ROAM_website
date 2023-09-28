@@ -2,20 +2,20 @@
 @use '../core/screens';
 
 #resources-wrapper {
-  margin-top: 8rem;
+  margin-top: 6rem;
   #resources-content {
     display: flex;
     flex-direction: column;
-    #resources-intro {
-      background-color: colors.$primary-green;
-      padding: 6rem;
-      h2 {
-        margin-bottom: 1rem;
-      }
-      p {
-        width: 80%;
-      }
-    }
+    // #resources-intro {
+    //   background-color: colors.$primary-green;
+    //   padding: 6rem;
+    //   h2 {
+    //     margin-bottom: 1rem;
+    //   }
+    //   p {
+    //     width: 80%;
+    //   }
+    // }
     #resources-body {
       background-color: colors.$primary-white;
       padding: 6rem;

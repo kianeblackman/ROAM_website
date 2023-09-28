@@ -2,14 +2,14 @@
 @use '../core/screens';
 
 #about-wrapper {
-  margin-top: 8rem;
+  margin-top: 6rem;
   #about-content {
     display: flex;
     flex-direction: column;
     #about-intro {
       display: flex;
       flex-direction: column;
-      background-color: colors.$primary-green;
+      background-color: colors.$primary-white;
       padding: 6rem;
       gap: 3rem;
       h2 {
@@ -39,7 +39,7 @@
       flex-direction: row;
       gap: 3rem;
       width: 100%;
-      background-color: colors.$primary-white;
+      background-color: colors.$primary-green;
       padding: 6rem;
       p a {
         font-weight: bold;

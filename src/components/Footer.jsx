@@ -1,7 +1,9 @@
 
 // Import Dependencies
 
-// Import Assets
+// Import Images
+import email from "/img/icon-email.png"
+import instagram from "/img/icon-instagram.png"
 
 export default function Footer() {
     return (
@@ -10,14 +12,14 @@ export default function Footer() {
                 <h3>FOR THOSE WHO EXPLORE WHAT CAME BEFORE</h3>
                 <ul>
                     <li>
-                        <img src="#" alt="Mail Icon" />
                         <a href="mailto:" target="_blank" rel="noopener noreferrer">
+                            <img src={email} alt="Mail Icon" />
                             <p>roamanthology@gmail.com</p>
                         </a>
                     </li>
                     <li>
-                        <img src="#" alt="Instagram Icon" />
                         <a href="#" target="_blank" rel="noopener noreferrer">
+                            <img src={instagram} alt="Instagram Icon" />
                             <p>@_roam_roam_roam_</p>
                         </a>
                     </li>
