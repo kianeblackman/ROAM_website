@@ -12,13 +12,13 @@ export default function Footer() {
                 <h3>FOR THOSE WHO EXPLORE WHAT CAME BEFORE</h3>
                 <ul>
                     <li>
-                        <a href="mailto:" target="_blank" rel="noopener noreferrer">
+                        <a href="mailto:roamanthology@gmail.com" target="_blank" rel="noopener noreferrer">
                             <img src={email} alt="Mail Icon" />
                             <p>roamanthology@gmail.com</p>
                         </a>
                     </li>
                     <li>
-                        <a href="#" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.instagram.com/_roam_roam_roam_/" target="_blank" rel="noopener noreferrer">
                             <img src={instagram} alt="Instagram Icon" />
                             <p>@_roam_roam_roam_</p>
                         </a>

@@ -32,12 +32,20 @@
         p {
           padding-top: 2rem;
         }
+        hr {
+          width: 50%;
+        }
+      }
+      #special-thanks p {
+        span {
+          font-weight: bold;
+        }
       }
     }
     #about-ending {
       display: flex;
       flex-direction: row;
-      gap: 3rem;
+      gap: 24rem;
       width: 100%;
       background-color: colors.$primary-green;
       padding: 6rem;
@@ -69,6 +77,12 @@
           }
           img {
             width: 100%;
+          }
+        }
+        #special-thanks p {
+          width: 100%;
+          span {
+            font-weight: bold;
           }
         }
       }
