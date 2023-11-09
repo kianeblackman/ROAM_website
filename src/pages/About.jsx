@@ -14,22 +14,22 @@ function About() {
                     <div className="about-card">
                         <img id="profile" src={henry} alt="ROAM Front Cover" />
                         <div id="about-details">
-                            <div id="order-text">
+                            <div id="about-text">
                                 <h2>Henry Rayment-Pickard</h2>
                                 <h2 className="light">Editor</h2>
                                 <hr />
-                                <p>Henry Rayment-Pickard is a London-based archaeologist, photographer and writer specialising in Early-Medieval archaeology. He is dedicated to making the heritage industry more engaging, inclusive, and forward-thinking.</p>
+                                <p className="medium">Henry Rayment-Pickard is a London-based archaeologist, photographer and writer specialising in Early-Medieval archaeology. He is dedicated to making the heritage industry more engaging, inclusive, and forward-thinking.</p>
                             </div>
                         </div>
                     </div>
                     <div className="about-card">
                         <img id="profile" src={tom} alt="ROAM Front Cover" />
                         <div id="about-details">
-                            <div id="order-text">
+                            <div id="about-text">
                                 <h2>Tom Stockwell</h2>
                                 <h2 className="light">Designer</h2>
                                 <hr />
-                                <p>Tom Stockwell is a London-based illustrator, designer, and musician. Through his body of work, he aims to collage feelings of escapism, nostalgia, otherworldliness, and just the downright weird to be honest with you.</p>
+                                <p className="medium">Tom Stockwell is a London-based illustrator, designer, and musician. Through his body of work, he aims to collage feelings of escapism, nostalgia, otherworldliness, and just the downright weird to be honest with you.</p>
                             </div>
                         </div>
                     </div>

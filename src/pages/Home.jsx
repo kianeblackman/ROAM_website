@@ -2,6 +2,7 @@
 
 // Import Components
 import Button from "../components/Button.jsx"
+import EmailButton from "../components/EmailButton.jsx"
 
 // Import Images
 import romeo from "/img/ROMEO-FULL-COLOR.png"
@@ -27,9 +28,13 @@ function Home() {
               <h2>VOLUME 1</h2>
               <h2 className="light">2023</h2>
               <hr />
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br /><br />Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              <p>Aiming to celebrate and preserve diverse folk artistic practices—particularly in light of the overused folk revival moniker — the first issue of ROAM profiles creatives from a diverse range of backgrounds to offer a more inclusive and cross-disciplinary look at the modern folk movement.
+                <br /><br />
+                The archeologically-inspired contents page of this first issue gives an indication of this fresher approach. 58 artists and creatives are clustered together thematically, branching out across mediums, which include everything from sculpture, film festivals, foraging, scavenger hunts, map-making and more, all engaging folklore in their own ways.
+                <br /><br />
+                We hope to show through this body of work that the folk art world is branching out in new and exciting directions, rather than stomping old ground.</p>
             </div>
-            <Button content="Order Now" href="mailto:roamanthology@gmail.com" />
+            <EmailButton content="Order Now" href="mailto:roamanthology@gmail.com" />
           </div>
         </div>
         <div id="resources-section">
