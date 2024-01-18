@@ -34,7 +34,7 @@ function Home() {
                 <br /><br />
                 We hope to show through this body of work that the folk art world is branching out in new and exciting directions, rather than stomping old ground.</p>
             </div>
-            <EmailButton content="Order Now" href="mailto:roamanthology@gmail.com" />
+            <EmailButton content="Order Now" href="https://magculture.com/products/roam-1" />
           </div>
         </div>
         <div id="resources-section">
